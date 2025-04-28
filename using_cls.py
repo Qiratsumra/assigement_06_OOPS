@@ -4,8 +4,7 @@ class Counter:
     count = 0  # keep track of the number of objects created
     def __init__(self):
         Counter.count += 1
-        print(f"Object created. Current count: {Counter.count}") # count the number of the is created
-
+        print(f"Object created. Current count: {Counter.count}") # count the number of the is created 
     @classmethod # converts the function into a class method
     def displayer_counter(cls):
         print(f"Total objects created: {cls.count}")
