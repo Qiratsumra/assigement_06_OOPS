@@ -2,7 +2,7 @@
 class Engine :
     def __init__(self,name):
         self.name =  name
-        pass
+
     @staticmethod
     def start_engine():
         print('Engine is start........')

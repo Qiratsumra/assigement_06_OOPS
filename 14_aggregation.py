@@ -5,19 +5,19 @@ class Employee:
         self.id = id
         self.name = name
         self.role = role
-    def emplyee_details(self):
+
+    def empolyee_details(self):
         print(f'Name: {self.name}')
         print(f'ID: {self.id}')
-        print(f'ID: {self.role}')
 
 class Department:
-    def __init__(self,dept,emplyee_details):
+    def __init__(self,dept,empolyee):
         self.dept = dept
-        self.emplyee_details = emplyee_details
+        self.empolyee = empolyee
 
     def display_department_details(self):
-        print(f'{self.dept} {self.emplyee_details}')
-        self.emplyee_details()
+        print(f'Department: {self.dept} ')
+        self.empolyee.empolyee_details()
 
 emp = Employee(12,'Ali','Software Developer')
 dept = Department('Software Developer',emp)

@@ -5,4 +5,4 @@ class Logger:
     def __del__(self):
         print('Logger has been destroyed')
 
-log = Logger
+log = Logger()

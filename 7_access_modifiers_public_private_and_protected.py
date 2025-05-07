@@ -18,3 +18,5 @@ print(eply.name)
 
 # Accessible but should be treated as protected
 print(eply._salary)
+print(eply.__ssn) #get error bcoz it is private
+
